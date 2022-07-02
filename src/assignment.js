@@ -15,16 +15,20 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
 
-    let sum = 0;
+  let sum = 0;
 
-    for(let i = 0;i<arrayOfNumbers.length;i++){
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
 
-        sum = sum+arrayOfNumbers[i]
+    sum = sum + arrayOfNumbers[i];
 
-    }
-   
-    return sum;
+  }
+
+  return sum;
+
 }
+
+
+assignment.sumOfNumbers = sumOfNumbers;
 
 
 /**
@@ -38,18 +42,20 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
 
-    let count = 0;
+  let count = 0;
 
-    for(let i = 0; i<arrayOfNumbers.length; i++){
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
 
-        if(arrayOfNumbers[i] % 2 === 0){
-            count++
-        }
+    if (arrayOfNumbers[i] % 2 === 0) {
+      count++
     }
+  }
 
-    return count;
-    
+  return count;
+
 }
+
+assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
@@ -67,7 +73,7 @@ function countEvenNumbers(arrayOfNumbers) {
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
+  return arrayOfNumbers;
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
